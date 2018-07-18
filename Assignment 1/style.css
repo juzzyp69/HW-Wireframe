@@ -13,17 +13,18 @@
 
 .topnav {
     background-color: #ebebeb;
-    overflow: hidden;
+    overflow: scroll;
     border: 1px solid #555555;
+    color: #ffffff;
 }
 
 .topnav a {
     float: right;
-    color: #f2f2f2;
+    color:grey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     border: 1px solid #555555;
 }
 .topnav a:hover {
@@ -33,7 +34,7 @@
 
 .topnav a.active {
     background-color: #ebebeb;
-    color: white;
+    color: black;
 }
   
   #fixed {
